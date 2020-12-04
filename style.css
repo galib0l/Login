@@ -1,0 +1,66 @@
+h1{
+    text-align:center;
+    margin-top:150px;
+    color:#5FF5E3;
+    width:100%;
+    
+}
+.username{
+    margin-left:520px;
+    width:300px;
+    height:50px;
+    font-size:30px;
+    border:3px solid  blue;
+    background-color:black;
+}
+.password{
+    margin-left:520px;
+    width:300px;
+    height:50px;
+    font-size:30px;
+    border:3px solid  blue;
+    background-color:black;   
+}
+.password:focus{
+    border:3px solid #35E5D0;
+    background-color:#C588F5;
+}
+.username:focus{
+    border:3px solid #35E5D0;
+    background-color:#C588F5;
+}
+.login{
+    margin-left:540px;
+    width:120px;
+    height:50px;
+    font-size:30px;
+    border:5px solid salmon;
+    background-color:whitesmoke;
+    
+}
+.reset{
+    width:120px;
+    height:50px;
+    font-size:30px;
+    border:5px solid salmon;
+    background-color:whitesmoke;
+}
+.reset:focus{
+    background-color:#C92D84;
+    cursor:pointer;
+    
+}
+.login:focus{
+    background-color:#C92D84;
+}
+.login:hover{
+    background-color:#1994B5;
+    cursor:pointer;
+}
+.reset:hover{
+    background-color:#1994B5;
+    cursor:pointer;
+}
+body{
+    background-color:#CE74EE;
+}
